@@ -146,13 +146,15 @@ body {
       padding-bottom: 10px;
     }
   }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 460px) {
     .hero-wrapper{
       >img{
         max-width:  250px;
       height: 200px;
+      margin-top: 30px;
       }
     }
+    
   }
   
   .hero-wrapper {
@@ -261,7 +263,7 @@ body {
       @include column($spacer * 2, center, center);
       > .hero-explained > p {
         padding: 33px;
-        font-size: 25px;
+        font-size: 23px;
       }
     }
   }
@@ -651,7 +653,7 @@ body {
         grid-auto-columns: calc((100% / 3) - 12px);
         overflow-x: hidden;
         height: 470px;
-        // width: 90vw;
+      
         margin: 0 auto;
         scroll-behavior: smooth;
       }
@@ -664,7 +666,7 @@ body {
         -webkit-box-shadow: 1px 5px 47px -1px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 1px 5px 47px -1px rgba(0, 0, 0, 0.75);
         box-shadow: 6px -5px 16px 0px rgba(0, 0, 0, 0.75);
-        width: 320px;
+       
         display: flex;
         flex-direction: column;
   
