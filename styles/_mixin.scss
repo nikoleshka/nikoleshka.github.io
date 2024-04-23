@@ -1,0 +1,22 @@
+@mixin column($gap: $spacer, $justify: flex-start, $alignItems: flex-start) {
+    display: flex;
+    flex-direction: column;
+    justify-content: $justify;
+    align-items: $alignItems;
+    gap: $gap;
+  }
+  @mixin row($gap: $spacer, $justify: flex-start, $alignItems: flex-start) {
+    display: flex;
+    flex-direction: row;
+    justify-content: $justify;
+    align-items: $alignItems;
+    gap: $gap;
+  }
+  
+  @mixin grid() {
+    display: grid;
+    grid-auto-flow: column;
+  
+    gap: 16px;
+  }
+  
