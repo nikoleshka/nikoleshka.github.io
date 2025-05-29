@@ -180,15 +180,16 @@ header {
   padding: 0 64px;
   min-height: 900px;
   background-position: center center;
-  background-image: url(../assets/bg.jpg);
-  -o-object-fit: cover;
-     object-fit: cover;
+  background-image: url(../assets/vivid-blurred-colorful-background.jpg);
+  background-size: cover;      
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 24px;
   box-shadow: 0px 34px 27px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 .hero-wrapper > img {
   width: 270px;
