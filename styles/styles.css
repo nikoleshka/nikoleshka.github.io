@@ -180,7 +180,7 @@ header {
   padding: 0 64px;
   min-height: 900px;
   background-position: center center;
-  background-image: url(../assets/vivid-blurred-colorful-background.jpg);
+  background-image: url('../assets/vivid-blurred-colorful-background.jpg');
   background-size: cover;      
   background-repeat: no-repeat;
   display: flex;
